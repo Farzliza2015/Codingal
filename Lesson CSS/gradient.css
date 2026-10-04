@@ -1,0 +1,8 @@
+/* Purple to coral, left to right */
+.page-header {
+background-image: linear-gradient(to right, purple, coral);
+}
+/* Dark blue to navy, top to bottom */
+body {
+background-color:goldenrod;
+}
