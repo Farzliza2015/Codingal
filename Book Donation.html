@@ -76,6 +76,16 @@
         <br>
         <button type="submit">Send Donation</button>
     </form>
+    <form onsubmit="showMessage(event)">
+
+    </form>
+        <script>
+            function showMessage(event) 
+            {
+                event.preventDefault(); // Prevents actual form submission
+                alert("Thank you! Your book donation request has been submitted successfully.");
+            }
+        </script>
 
 </body>
 
