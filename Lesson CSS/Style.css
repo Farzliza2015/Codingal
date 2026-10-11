@@ -16,7 +16,8 @@ body {
         .fact-card {
             background-color: midnightblue;
             border-radius: 12px;
-            color: white;
+            color: lightblue;
+    
         }
 
             .fact-card h2 {
@@ -31,7 +32,7 @@ body {
                     }
                         @keyframes twinkle {
                             from {
-                                background-color: red;
+                                background-color: orange;
                             }
                 
                             to {
@@ -42,3 +43,15 @@ body {
                                 text-align: center;
                                 color: coral;
                             }
+                                    @keyframes twinkletext {
+                                        from {
+                                            color: lightblue;
+                                                 }
+                            
+                                            to {
+                                             color:lightyellow;
+                                                            }
+                                            }
+                                    .twinkle-text {
+                                        animation: twinkletext 2s infinite alternate;
+                                    }        
