@@ -1,0 +1,76 @@
+body {
+     font-family: 'Times New Roman';
+     background-color: #dfae3d;
+     text-align: center;
+     color: #f7d6a9;
+ }
+
+ h1 {
+     color:#f7d6a9;
+     font-size: 36px;
+ }
+
+ h1+p {
+     color: #f7d6a9;
+     font-weight: bold;
+     background-color: #f9f6f7;
+     border-radius: 10px;
+ }
+
+ .shop-description::first-letter {
+     font-size: 36px;
+     color: #473603;
+     font-weight: bold;
+ }
+
+ .menu-box {
+     width: 420px;
+     background-color: white;
+     border: 3px solid #e8b349;
+     border-radius: 15px;
+     margin: 20px auto;
+     padding: 20px;
+ }
+
+ ul {
+     padding: 0;
+ }
+
+ ul>li {
+     list-style: none;
+     background-color: #fff0f5;
+     color: #e2c56d;
+     font-size: 18px;
+     font-weight: bold;
+     margin: 10px;
+     padding: 12px;
+     border-radius: 10px;
+     border: 2px double #f7d6a9;
+ }
+
+ ul>li:nth-child(3) {
+     background-color: #fff3cd;
+     color: #b85c00;
+     border: 3px solid #ffa500;
+ }
+
+ ul>li:hover {
+     background-color: #f8e698;
+     color: white;
+     cursor: pointer;
+     transform: scale(1.05);
+ }
+
+ button {
+     background-color: #f7d6a9;
+     color: white;
+     border: none;
+     border-radius: 20px;
+     padding: 12px 24px;
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+ button:hover {
+     background-color: #614a07;
+ }
