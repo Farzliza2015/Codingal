@@ -1,6 +1,6 @@
 body {
         font-family: Arial, sans-serif;
-        background-color: lightyellow;
+        background: linear-gradient(to bottom, #a2c3e0, #e6f7ff);
         padding: 65px 30px 30px 30px;
         min-height: 1800px;
     }
@@ -12,16 +12,16 @@ body {
 
     .top-bar {
         position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        background-color: darkorange;
+        top: 10px;
+        left: 20px;
+        right: 20px;
+        background: linear-gradient(to bottom, #ff8c00, #ffa500);
         color: white;
         padding: 14px 20px;
     }
 
     .list-item {
-        background-color: white;
+        background: linear-gradient(to bottom, #ffffff, #f0f0f0);
         border: 2px solid darkorange;
         padding: 10px 20px;
         margin: 5px 0;
@@ -30,13 +30,13 @@ body {
     .special-note {
         position: relative;
         left: 30px;
-        background-color: gold;
+        background: linear-gradient(to bottom, #ffd700, #ffa500);
         padding: 10px 20px;
     }
 
     .pet-card {
         position: relative;
-        background-color: white;
+        background: linear-gradient(to bottom, #ffffff, #f0f0f0);
         border: 3px solid darkorange;
         padding: 15px 25px;
     }
@@ -45,15 +45,15 @@ body {
         position: absolute;
         top: 8px;
         right: 8px;
-        background-color: forestgreen;
+        background: linear-gradient(to bottom, #228B22, #32CD32);
         color: white;
         padding: 4px 8px;
     }
 
     .section-label {
         position: sticky;
-        top: 55px;
-        background-color: darkorange;
+        top: 120px;
+        background: linear-gradient(to bottom, #ff8c00, #ffa500);
         color: white;
         padding: 10px 20px;
         margin: 15px 0 8px;

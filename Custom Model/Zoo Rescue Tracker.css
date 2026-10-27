@@ -15,7 +15,7 @@
 
 body {
     font-family:  "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
+    background:linear-gradient(to bottom, #cdffc9, #0d3b01, #cdffc9);
     color: #2b2d42;
     padding: 80px 20px 40px;
     min-height: 1400px;
