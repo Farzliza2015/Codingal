@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, forestgreen, maroon);
+    background: linear-gradient(to right, rgb(149, 195, 227), rgb(2, 38, 57));
     font-family: Arial, sans-serif;
 
 }
@@ -9,11 +9,11 @@ padding pushes the text away from the edges
 border draws a visible frame around the fact file
 margin pushes the fact file away from the screen edge */
 .fact-file {
-    background: linear-gradient(to right, lightyellow, lightblue);
+    background: linear-gradient(to right, rgb(2, 38, 57), rgb(149, 195, 227));
     color: darkslategray;
     width: 260px;
     padding: 25px;
-    border: 4px dashed rgb(65, 2, 2);
+    border: 4px dashed rgb(230, 237, 242);
     margin: 30px;
 }
     /* Animal name - forestgreen so it stands out */
