@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>My Animal Safari</title>
+    <style>
+        body {
+            position: relative;
+        }
+
+        .carousel-item {
+            height: 200px;
+            text-align: center;
+            padding: 70px;
+            color: white;
+            font-size: 30px;
+        }
+
+        section {
+            height: 300px;
+            padding: 70px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#nav">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-success">Forest</div>
+            <div class="carousel-item bg-info">Ocean</div>
+            <div class="carousel-item bg-warning">Desert</div>
+        </div>
+        <a href="#demo" data-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
+        <a href="#demo" data-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+        
+        </div>
+
+        <nav id="nav" class="navbar bg-dark sticky-top">
+            <a href="#forest">Forest</a>
+            <a href="#ocean">Ocean</a>
+            <a href="#desert">Desert</a>
+        </nav>
+        <div id="forest" class="section"></div>
+        <h2>Forest Safari</h2>Dolphins and Sharks
+        </div>
+        <div id="ocean" class="section bg-info">
+            <h2>Ocean Safari</h2>Whales and Turtles
+        </div>
+        <div id="desert" class="section bg-warning">
+            <h2>Desert Safari</h2>Camel and Snakes
+        </div>
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        </body>
+</html>
